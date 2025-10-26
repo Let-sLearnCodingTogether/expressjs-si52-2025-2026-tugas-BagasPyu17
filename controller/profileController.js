@@ -23,3 +23,4 @@ export const privateProfile = async (req, res) => {
         });
     }
 };
+
