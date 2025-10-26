@@ -1,3 +1,5 @@
+import modelProduk from "../model/modelProduk.js";
+
 export const createProduk = async (req, res) => {
   try {
    const request = req.body
