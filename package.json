@@ -20,9 +20,12 @@
   "homepage": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-tugas-BagasPyu17#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "ist": "^1.1.7",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.2",
+    "passport": "^0.7.0",
     "passport-jwt": "^4.0.1"
   },
   "devDependencies": {
