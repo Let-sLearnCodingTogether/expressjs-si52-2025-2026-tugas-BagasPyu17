@@ -1,7 +1,7 @@
 import { compare } from "bcrypt";
 import UserModel from "../model/userModel.js";
 import { hash } from "../utils/hashUtils.js";
-import { jwtSignUtil } from "../utils/jwtSignUtils.js";
+import { jwtSignUtils } from "../utils/jwtSignUtils.js";
 
 export const register = async (req, res) => {
     try {
