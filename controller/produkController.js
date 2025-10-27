@@ -59,13 +59,13 @@ export const updateProduk = async (req, res) => {
 
         if(!response){
             return res.status(500).json({
-                message : "Data gagal diupdate",
+                message : "Data ulasan produk gagal diupdate",
                 data : null
             })
         }
 
         return res.status(200).json({
-            message : "Data mahasiswa berhasil diupdate"
+            message : "Data ulasan produk berhasil diupdate"
         })
 
     } catch (error) {
@@ -90,13 +90,13 @@ export const deleteProduk = async (req, res) => {
 
         if(response){
             return res.status(200).json({
-                message : "Data berhasil dihapus",
+                message : "Data ulasan produk berhasil dihapus",
                 data : null
             })
         }
 
         return res.status(404).json({
-                message : "Data tidak ditemukan",
+                message : "Data ulasan produk tidak ditemukan",
                 data : null
             })
 

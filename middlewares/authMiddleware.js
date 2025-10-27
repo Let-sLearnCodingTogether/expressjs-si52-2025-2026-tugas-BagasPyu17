@@ -1,3 +1,6 @@
+passport.authenticate("jwt", { session: false })
+
+
 import passport from "passport";
 
 export const protect = (req, res, next) => {

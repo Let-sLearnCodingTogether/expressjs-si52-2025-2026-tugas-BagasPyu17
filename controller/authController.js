@@ -63,7 +63,7 @@ export const login = async (req, res) => {
             data: {
                 username: user.username,
                 email: user.email,
-                token: jwtSignUtil(user), // Membuat JWT token
+                token: jwtSignUtils(user), // ✅ perbaikan di sini
             },
         });
     } catch (error) {
