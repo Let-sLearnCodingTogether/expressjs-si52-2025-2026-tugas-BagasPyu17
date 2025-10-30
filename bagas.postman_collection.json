@@ -140,8 +140,36 @@
 		{
 			"name": "delete produk",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"produkName\" : \"Scarllet magic\",\r\n    \"review\" : \"mencerahkan123\",\r\n    \"rating\" : \"4.5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/produk/6902eacee01669a476023fc0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"produk",
+						"6902eacee01669a476023fc0"
+					]
+				}
 			},
 			"response": []
 		}
